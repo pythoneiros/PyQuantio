@@ -3,7 +3,7 @@
 
 import urllib2
 
-t = urllib2.urlopen('http://www.google.com.br/').read()
+t = urllib2.urlopen('http://www.gmasson.com.br/').read()
 
 # TAG para utilizar
 tags = t.split('<a')[1:]
