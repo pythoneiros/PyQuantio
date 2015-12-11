@@ -5,7 +5,7 @@ import urllib2
 
 t = urllib2.urlopen('http://www.gmasson.com.br/').read()
 
-# TAG para utilizar
+# TAG
 tags = t.split('<a')[1:]
 tags = [ tag.split('</a>')[0] for tag in tags ]
 
